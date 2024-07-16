@@ -7,6 +7,11 @@
   font-weight: 400;
 }
 
+main > section{
+    max-width: 1440px;
+    margin: 130px auto 0px auto;
+}
+
 /* header css */
 header {
   background: #ff900e1a;
@@ -58,7 +63,7 @@ header {
   color: #727272;
 }
 
-.btn_banner {
+.btn_primary {
   width: 120px;
   height: 50px;
   color: white;
@@ -71,4 +76,43 @@ header {
 .banner img{
     margin-bottom:40px;
     width: 100%;
+}
+
+
+/* our features style */
+
+.our_features{
+    display: flex;
+    align-items: center;
+}
+
+.our_features_img_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our_features_text{
+    width: 530px;
+    margin-left: 70px;
+}
+
+.our_features_title{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+#of_our{
+    font-weight: 700;
+    color: #131313;
+}
+#Features{
+    font-weight: 700;
+    color: #ff900e;
+}
+.our_features_description{
+    font:400;
+    font-size: 16px;
+    color: #727272;
+    margin: 28px 0px;
 }
