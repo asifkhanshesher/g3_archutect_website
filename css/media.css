@@ -24,6 +24,16 @@
         align-items: center;
         gap: 20px;
     }
+    .sponsors_images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+    .sponsors_icons{
+        width: 50%;
+    }
 }
 
 /* medium device  */

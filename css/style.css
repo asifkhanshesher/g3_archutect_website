@@ -183,3 +183,19 @@ header {
   justify-content: space-evenly;
   filter: grayscale(100%);
 }
+
+
+
+footer{
+ background-color: antiquewhite;
+ max-width: 1440px;
+ margin: 120px auto;
+ padding: 30px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #424242;
+}
