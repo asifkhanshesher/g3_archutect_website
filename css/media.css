@@ -34,6 +34,19 @@
     .sponsors_icons{
         width: 50%;
     }
+
+    .features{
+        flex-direction: column;
+        gap: 650px;
+    }
+    .features_title{
+        font-size: 40px;
+    }
+    #exprience_btn{
+        margin-left: 10px;
+    }
+   
+    
 }
 
 /* medium device  */
@@ -43,11 +56,34 @@
         text-align: center;
         gap: 20px;
     }
+    .our_features_text{
+        margin-left: 0px;
+    }
     .fact_title, .fact_description{
         text-align: center;
         
     }
     .fact_description{
         max-width: 900px;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+        gap: 650px;
+    }
+    #exprience_btn{
+        margin-left: 10px;
+    }
+}
+
+
+/* laptop screen */
+@media screen and (max-width:1280px){
+    .features{
+        padding: 0px 35px;
+    }
+    .fact_text{
+        padding-top: 100px;
+        margin-left: 35px;
     }
 }
