@@ -93,13 +93,13 @@ header {
 }
 
 .our_features_text{
-    width: 530px;
+    max-width: 530px;
     margin-left: 70px;
 }
 
 .our_features_title{
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 400;
     color: #727272;
 }
 #of_our{
@@ -111,8 +111,49 @@ header {
     color: #ff900e;
 }
 .our_features_description{
-    font:400;
+    font-weight:400;
     font-size: 16px;
     color: #727272;
     margin: 28px 0px;
+}
+
+/* some fact section  */
+
+.fact_title{
+  font-size: 45px;
+  font-weight: 700;
+}
+.fact_description{
+  font-weight:400;
+  font-size: 14px;
+  color: #727272;
+  max-width: 542px;
+  margin-top: 10px;
+}
+.fact_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+.facts{
+  border: 1px solid #ff900e;
+  border-radius: 6px;
+  height: 170px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fact_number{
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.fact_name{
+  font-weight:400;
+    font-size: 16px;
+    color: #727272;
 }
